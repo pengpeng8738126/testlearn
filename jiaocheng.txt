@@ -1,5 +1,6 @@
 git的使用方法
 
+vim编辑器只能是在英文输入法的情况下才可以wq
 
 1、创建本地库 进入一个指定的文件夹，最好是空的，然后用git init
 2、可以直接在里面移入文件，或者手动编辑，但是不能是word，图片形式
@@ -10,3 +11,4 @@ git的使用方法
 6、删除一个文件用rm 文件名，git checkout -- 文件名可以恢复，真的想删除可以用git rm 文件名，然后git commit -m
 7、添加远程库，用git remote add origin git@github.com:git名/仓库名
 8、比较和之前的区别是用git show
+9、比较两个文件用diff 文件1 文件2 其中< >分别代表不同的文件 
